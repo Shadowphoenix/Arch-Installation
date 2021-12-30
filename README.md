@@ -12,7 +12,7 @@ The following planned steps are as of now probably incomplete and will likely ch
 
 # Already working stuff
 
-## Installationscript for general purpose tools (to be executed as root rather than sudo)
+### Installationscript for general purpose tools (to be executed as root rather than sudo)
   fish
   nano
   vim
@@ -29,9 +29,14 @@ The following planned steps are as of now probably incomplete and will likely ch
   mesa
   xf86-video-intel
 
+
+### AUR-Helpers
+  Pamac-Aur
+  Yay
+
 # To Do
 
-## Arch itself - probably the hardest part?
+### Arch itself - probably the hardest part?
 
   Initial Installation
   1 user account
@@ -45,7 +50,7 @@ The following planned steps are as of now probably incomplete and will likely ch
   base
   base-devel
 
-## Desktop Environment and other packages i always install
+### Desktop Environment and other packages i always install
   sddm
   sddm-kcm
   plasma-desktop
@@ -70,10 +75,6 @@ The following planned steps are as of now probably incomplete and will likely ch
   font-forge
   kcron
   lutris
-
-### AUR-Helpers
-  Pamac-Aur
-  Yay
   
 ## Other stuff
 Optionals
