@@ -10,24 +10,9 @@ Rather than just lazily forking someone else i want to use this project as a mea
 
 The following planned steps are as of now probably incomplete and will likely change over the course of the project and are in no particular order - Tips and ideas are always welcome :) 
 
+# Already working stuff
 
-## Arch itself - probably the hardest part?
-
-  Initial Installation
-  1 user account
-  snapper + config
-  grub + config
-  grub-btrfs
-  snap-pac
-  enabling multilib
-  linux-Kernel
-  linux-firmware
-  base
-  base-devel
-
-## Common and helpful Packages including KDE Plasma
-
-### General purpose tools
+## Installationscript for general purpose tools (to be executed as root rather than sudo)
   fish
   nano
   vim
@@ -43,9 +28,24 @@ The following planned steps are as of now probably incomplete and will likely ch
   lib32-nvidia-utils
   mesa
   xf86-video-intel
-  
 
-### Desktop Environment and other packages i always install
+# To Do
+
+## Arch itself - probably the hardest part?
+
+  Initial Installation
+  1 user account
+  snapper + config
+  grub + config
+  grub-btrfs
+  snap-pac
+  enabling multilib
+  linux-Kernel
+  linux-firmware
+  base
+  base-devel
+
+## Desktop Environment and other packages i always install
   sddm
   sddm-kcm
   plasma-desktop
