@@ -1,5 +1,5 @@
 # Arch-Installation
-##Disclaimer
+## Disclaimer
 Script of commands for mostly unattended Installation of Arch Linux, hopefully all the way to installation of KDE Plasma, my primary desktop atm.
 
 I kinda want to go in a similar way to the ArchTitus-Scripts where you call certain scripts as steps through one Masterscript as needed. Like that one doesnt need to scim through the entire script to make changes as needed but can pull up specificparts or even disable them entirely
@@ -11,7 +11,7 @@ Rather than just lazily forking someone else i want to use this project as a mea
 The following planned steps are as of now probably incomplete and will likely change over the course of the project and are in no particular order - Tips and ideas are always welcome :) 
 
 
-##Arch itself - probably the hardest part?
+## Arch itself - probably the hardest part?
 
   Initial Installation
   1 user account
@@ -25,9 +25,9 @@ The following planned steps are as of now probably incomplete and will likely ch
   base
   base-devel
 
-##Common and helpful Packages including KDE Plasma
+## Common and helpful Packages including KDE Plasma
 
-###General purpose tools
+### General purpose tools
   fish
   git
   wget
@@ -42,7 +42,7 @@ The following planned steps are as of now probably incomplete and will likely ch
   xf86-video-intel
   
 
-###Desktop Environment and other packages i always install
+### Desktop Environment and other packages i always install
   sddm
   sddm-kcm
   plasma-desktop
@@ -68,22 +68,21 @@ The following planned steps are as of now probably incomplete and will likely ch
   kcron
   lutris
 
-###AUR-Helpers
+### AUR-Helpers
   Pamac-Aur
   Yay
   
-##Other stuff
+## Other stuff
+Optionals
 
-
-
-###Eye-Candy
+### Eye-Candy
   Automatically set fish as primary shell - YES I WANT THAT :P
   neofetch|lolcat on konsole-boot
   Full/Partly installation of the KDE Sweet Dark Global Theme
   Transparency
   KDE Force-Blur (currently requires the useage of X11)
 
-###Sript to automatically pull my most common tools from the AUR 
+### Script to automatically pull my most common tools from the AUR using yay
 
   davinci-resolve
   bottles-git
