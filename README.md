@@ -29,6 +29,9 @@ The following planned steps are as of now probably incomplete and will likely ch
 
 ### General purpose tools
   fish
+  nano
+  vim
+  micro
   git
   wget
   kget
