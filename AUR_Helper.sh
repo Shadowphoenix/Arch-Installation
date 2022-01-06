@@ -1,20 +1,20 @@
+#execute script as a user, makepkg executed as root causes hickups
+#Using YetAnotherYogurt/yay as CLI-AUR-Helper to install Pamac
+
 #!/bin/bash
-#execute as user, makepkg as root causes hickups every now and then
 
 set -x #echo on
 
 cd /tmp
-sudo git clone https://aur.archlinux.org/yay-git.git
 
-sudo chown -R neko ./yay-git #own to user for full access (modify user)
+sudo git clone https://aur.archlinux.org/yay-git.git 
+
+sudo chown -R neko ./yay-git #Own Buildirectory to user for full access (modify user as needed)
 
 cd ./yay-git
 
-makepkg -si
+makepkg -si #Building Yay
 
-#Installing Pamac - select yes for cleanup so all build-deps get erased once done
-
-sudo yay -Syu
-yay -Syu pamac-aur
+sudo yay -Syu pamac-aur #Installing Pamac + Dependencies
 
 exit0
