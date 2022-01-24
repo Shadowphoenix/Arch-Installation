@@ -1,5 +1,5 @@
 #!/bin/bash
-#execute script as a user, makepkg executed as root causes hickups
+#execute script as a user, makepkg and yay executed as root cause hickups
 #Using YetAnotherYogurt/yay as CLI-AUR-Helper to install Pamac
 
 set -x #echo on
