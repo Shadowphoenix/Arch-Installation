@@ -13,8 +13,6 @@ Script of commands for mostly unattended Installation of Arch Linux, hopefully a
   base
   base-devel
   grub + config
-  snap-pac?
-  snapper + config
 
 
 ### Eye-Candy
