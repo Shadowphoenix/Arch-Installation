@@ -10,42 +10,6 @@ Rather than just lazily forking someone else i want to use this project as a mea
 
 The following planned steps are as of now probably incomplete and will likely change over the course of the project and are in no particular order - Tips and ideas are always welcome :) 
 
-# Already working stuff
-
-### Installationscript for general purpose tools (to be executed as root rather than sudo)
-  fish
-  nano
-  vim
-  micro
-  git
-  wget
-  kget
-  nvidia
-  nvidia-settings
-  opencl-nvidia
-  lib32-opencl-nvidia
-  nvidia-utils
-  lib32-nvidia-utils
-  mesa
-  xf86-video-intel
-
-
-### AUR-Helpers
-  Pamac-Aur
-  Yay
-
-### AUR and Gems
-  davinci-resolve
-  bottles-git
-  dxvk-bin
-  isw
-  lib32-dxvk
-  libdxvk
-  optimus-manager
-  optimus-manager-qt
-  ruby-fusuma
-  ytmdesktop-bin
-
 # To Do
 
 ### Arch itself - probably the hardest part?
@@ -92,10 +56,8 @@ The following planned steps are as of now probably incomplete and will likely ch
 Optionals
 
 ### Eye-Candy
-  Automatically set fish as primary shell - YES I WANT THAT :P
-  neofetch|lolcat on konsole-boot
+  neofetch|lolcat on fish-boot (sudo tee)
   Full/Partly installation of the KDE Sweet Dark Global Theme
   Transparency
-  KDE Force-Blur (currently requires the useage of X11)
 
 
