@@ -2,6 +2,8 @@
 
 set -x #echo on
 
+sudo nano /etc/pacman.conf
+
 sudo pacman -Syu steam steam-native-runtime wine winetricks lib32-opencl-nvidia lib32-vulkan-intel wine-mono wine-gecko
 
 #winedeps
