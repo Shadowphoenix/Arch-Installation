@@ -94,16 +94,7 @@ Optionals
   isw
   lib32-dxvk
   libdxvk
-  ntfix-git
   optimus-manager
   optimus-manager-qt
-  protondb-tags-git
-  proton-ge-custom-bin
-  protontricks-git
-  q4wine
   ruby-fusuma
-  vk3d-proton-git
-  wine-ge-custom
-  winetricks-git
-  winscp
   ytmdesktop-bin
