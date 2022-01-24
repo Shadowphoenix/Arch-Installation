@@ -14,10 +14,8 @@ Script of commands for mostly unattended Installation of Arch Linux, hopefully a
   base-devel
   grub + config
 
-
-### Eye-Candy
-  neofetch|lolcat on fish-boot (sudo tee)
+  
+### SHOULD be included when migrating /home
   Full/Partly installation of the KDE Sweet Dark Global Theme
   Transparency
-
-
+  neofetch|lolcat on shell-boot
