@@ -34,6 +34,18 @@ The following planned steps are as of now probably incomplete and will likely ch
   Pamac-Aur
   Yay
 
+### AUR and Gems
+  davinci-resolve
+  bottles-git
+  dxvk-bin
+  isw
+  lib32-dxvk
+  libdxvk
+  optimus-manager
+  optimus-manager-qt
+  ruby-fusuma
+  ytmdesktop-bin
+
 # To Do
 
 ### Arch itself - probably the hardest part?
@@ -86,15 +98,4 @@ Optionals
   Transparency
   KDE Force-Blur (currently requires the useage of X11)
 
-### Script to automatically pull my most common tools from the AUR using yay
 
-  davinci-resolve
-  bottles-git
-  dxvk-bin
-  isw
-  lib32-dxvk
-  libdxvk
-  optimus-manager
-  optimus-manager-qt
-  ruby-fusuma
-  ytmdesktop-bin
