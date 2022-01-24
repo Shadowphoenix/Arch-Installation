@@ -15,7 +15,7 @@ Script of commands for mostly unattended Installation of Arch Linux, hopefully a
   grub + config
 
   
-### SHOULD be included when migrating /home
+### Test: migrating /home
   Full/Partly installation of the KDE Sweet Dark Global Theme
   Transparency
   neofetch|lolcat on shell-boot
