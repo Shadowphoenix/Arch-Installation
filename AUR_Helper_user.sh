@@ -12,6 +12,6 @@ cd ./yay-git
 makepkg -si #Building Yay
 
 #installing pamac
-sudo yay -Syu pamac-aur #Installing Pamac + Dependencies
+yay -Syu pamac-aur #Installing Pamac + Dependencies
 
 exit0
