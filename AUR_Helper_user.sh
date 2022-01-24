@@ -11,5 +11,6 @@ sudo chown -R neko ./yay-git #Own Buildirectory to user for full access (modify 
 cd ./yay-git
 makepkg -si #Building Yay
 
+yay --builddir /mnt/install/yay
 #installing pamac
 yay -Syu pamac-aur #Installing Pamac + Dependencies
