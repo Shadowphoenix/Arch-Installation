@@ -8,15 +8,14 @@ Script of commands for mostly unattended Installation of Arch Linux, hopefully a
 
   Initial Installation
   1 user account
-  snapper + config
-  grub + config
-  grub-btrfs
-  snap-pac
-  enabling multilib
-  linux-Kernel
+  linux
   linux-firmware
   base
   base-devel
+  grub + config
+  snap-pac?
+  snapper + config
+
 
 ### Eye-Candy
   neofetch|lolcat on fish-boot (sudo tee)
