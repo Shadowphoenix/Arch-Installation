@@ -26,31 +26,6 @@ The following planned steps are as of now probably incomplete and will likely ch
   base
   base-devel
 
-### Desktop Environment and other packages i always install
-  sddm
-  sddm-kcm
-  plasma-desktop
-  kdeplasma-addons
-  kate
-  konsole
-  dolphin
-  dolphin-plugins
-  partitionmanager
-  spectacle
-  latte-dock
-  libreoffice-fresh
-  discord
-  steam
-  firefox
-  discover + optionals
-  sweeper
-  kdeconnect
-  plasma-systemmonitor
-  powerdevil
-  filelight
-  font-forge
-  kcron
-
 ### Eye-Candy
   neofetch|lolcat on fish-boot (sudo tee)
   Full/Partly installation of the KDE Sweet Dark Global Theme
