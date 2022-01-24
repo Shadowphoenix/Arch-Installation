@@ -13,5 +13,3 @@ makepkg -si #Building Yay
 
 #installing pamac
 yay -Syu pamac-aur #Installing Pamac + Dependencies
-
-exit0
