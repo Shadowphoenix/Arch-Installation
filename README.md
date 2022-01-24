@@ -50,10 +50,6 @@ The following planned steps are as of now probably incomplete and will likely ch
   filelight
   font-forge
   kcron
-  lutris
-  
-## Other stuff
-Optionals
 
 ### Eye-Candy
   neofetch|lolcat on fish-boot (sudo tee)
