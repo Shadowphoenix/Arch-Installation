@@ -6,5 +6,3 @@ pacman -Syu fish nano git wget kget nvidia nvidia-settings opencl-nvidia nvidia-
 
 systemctl enable NetworkManager
 systemctl enable sddm
-
-exit0
