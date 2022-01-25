@@ -22,6 +22,7 @@ useradd -d /home/neko -M neko
 chown -R neko:neko /home/neko
 passwd neko
 EDITOR=nano visudo
+usermod --append --groups wheel neko
 
 #installing SDDM + KDE + Videodrivers 
 
