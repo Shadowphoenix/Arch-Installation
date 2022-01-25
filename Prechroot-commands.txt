@@ -9,9 +9,9 @@ mkfs.ext4 -L HOME /dev/nvme0n1p7
 mkswap -L SWAP /dev/nvme0n1p4
 swapon /dev/nvme0n1p4
 mount /dev/nvme0n1p6 /mnt
-mkdir /mnt/efi
+mkdir /mnt/boot
 mkdir /mnt/home
-mount /dev/nvme0n1p1 /mnt/efi
+mount /dev/nvme0n1p1 /mnt/boot
 mount /dev/nvme0n1p7 /mnt/home
 pacstrap /mnt base base-devel linux linux-firmware dhcpcd nano iwd git
 genfstab -U /mnt >> /mnt/etc/fstab
