@@ -13,4 +13,8 @@ makepkg -si #Building Yay
 
 yay --builddir /mnt/install/yay
 #installing pamac
-yay -Syu pamac-aur #Installing Pamac + Dependencies
+yay -Syu pamac-all #Installing Pamac + Dependencies
+
+yay -Syu davinci-resolve isw optimus-manager-git optimus-manager-qt-git ytmdesktop-bin betterdiscord-installer-bin bottles-git dxvk-bin lib32-libdxvk libdxvk
+
+systemctl enable optimus-manager
