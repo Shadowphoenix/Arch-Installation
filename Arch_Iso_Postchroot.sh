@@ -19,5 +19,6 @@ pacman -Syu grub efibootmgr os-prober
 grub-install --target=x86_64-efi --efi-directory=/efi/ --bootloader-id=GRUB
 nano /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
-useradd -G wheel,audio,video -m neko
+useradd -s bash -d /home/neko -M neko
+chown -R neko:neko /home/neko
 passwd neko
