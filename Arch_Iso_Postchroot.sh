@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 nano /etc/localtime
 echo arch > /etc/hostname
