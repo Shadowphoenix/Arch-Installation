@@ -13,9 +13,9 @@ nano /etc/locale.gen
 locale-gen
 echo "KEYMAP=de-latin1" > /etc/vconsole.conf
 nano /etc/vconsole.conf
-echo "127.0.0.1 localhost" >> /etc/hosts
-echo "::1  localhost " >> /etc/hosts
-echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
+echo "127.0.0.1    localhost" >> /etc/hosts
+echo "::1          localhost " >> /etc/hosts
+echo "127.0.1.1    arch.localdomain    arch" >> /etc/hosts
 nano /etc/hosts
 mkinitcpio -p linux
 passwd
