@@ -5,9 +5,9 @@ set -x #echo on
 sudo pacman -Syu libinput ruby xdotool
 
 #installing fusuma + plugins
-gem install fusuma
-gem install fusuma-plugin-sendkey
-gem install fusuma-plugin-wmctrl
-gem install fusuma-plugin-keypress
-gem install fusuma-plugin-tap
-gem install fusuma-plugin-appmatcher
+sudo gem install fusuma
+sudo gem install fusuma-plugin-sendkey
+sudo gem install fusuma-plugin-wmctrl
+sudo gem install fusuma-plugin-keypress
+sudo gem install fusuma-plugin-tap
+sudo gem install fusuma-plugin-appmatcher
