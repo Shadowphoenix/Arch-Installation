@@ -21,7 +21,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 useradd -d /home/neko -M neko
 chown -R neko:neko /home/neko
 passwd neko
-
+EDITOR=nano visudo
 
 #installing SDDM + KDE + Videodrivers 
 
