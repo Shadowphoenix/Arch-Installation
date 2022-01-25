@@ -12,7 +12,7 @@ mount /dev/nvme0n1p6 /mnt
 mkdir /mnt/boot
 mkdir /mnt/boot/EFI
 mkdir /mnt/home
-mount /dev/nvme0n1p1 /mnt/boot
+mount /dev/nvme0n1p1 /mnt/boot/EFI
 mount /dev/nvme0n1p7 /mnt/home
 pacstrap /mnt base base-devel linux linux-firmware dhcpcd nano iwd git
 genfstab -U /mnt >> /mnt/etc/fstab
