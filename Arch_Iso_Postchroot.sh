@@ -9,7 +9,8 @@ nano /etc/locale.conf
 echo "de_DE.UTF-8" >> /etc/locale.gen
 nano /etc/locale.gen
 locale-gen
-echo MEYMAP=de-latin1 > /etc/vconsole.conf
+echo "MEYMAP=de-latin1" > /etc/vconsole.conf
+nano /etc/vconsole.conf
 echo "127.0.0.1 localhost \n ::1  localhost \n 127.0.1.1 arch.localdomain arch" >> /etc/hosts
 nano /etc/hosts
 mkinitcpio -p linux
