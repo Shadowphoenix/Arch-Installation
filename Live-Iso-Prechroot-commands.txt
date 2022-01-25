@@ -13,3 +13,6 @@ mkdir /mnt/efi
 mkdir /mnt/home
 mount /dev/nvme0n1p1 /mnt/efi
 mount /dev/nvme0n1p7 /mnt/home
+pacstrap /mnt base base-devel linux linux-firmware dhcpcd nano iwd git
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
