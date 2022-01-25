@@ -15,7 +15,7 @@ echo "127.0.1.1    arch.localdomain    arch" >> /etc/hosts
 mkinitcpio -p linux
 passwd
 pacman -Syu grub efibootmgr os-prober
-grub-install --target=x86_64-efi --efi-directory=/efi/ --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB
 nano /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 useradd -d /home/neko -M neko
