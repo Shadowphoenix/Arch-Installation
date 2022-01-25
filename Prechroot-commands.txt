@@ -11,6 +11,7 @@ swapon /dev/nvme0n1p4
 mount /dev/nvme0n1p6 /mnt
 mkdir /mnt/boot
 mkdir /mnt/boot/EFI
+mkdir /mnt/mnt/install
 mkdir /mnt/home
 mount /dev/nvme0n1p1 /mnt/boot/EFI
 mount /dev/nvme0n1p7 /mnt/home
