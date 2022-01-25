@@ -10,6 +10,7 @@ mkswap -L SWAP /dev/nvme0n1p4
 swapon /dev/nvme0n1p4
 mount /dev/nvme0n1p6 /mnt
 mkdir /mnt/boot
+mkdir /mnt/boot/EFI
 mkdir /mnt/home
 mount /dev/nvme0n1p1 /mnt/boot
 mount /dev/nvme0n1p7 /mnt/home
