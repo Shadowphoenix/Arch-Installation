@@ -4,7 +4,7 @@ Script of commands for mostly unattended Installation of Arch Linux, hopefully a
 
 # To Do
  
-### Test: migrating /home
-  Full/Partly installation of the KDE Sweet Dark Global Theme
-  Transparency
+### Test: migrating /home with all settings:
+  Full/Partly installation of the KDE Sweet Dark Global Theme, 
+  Transparency, 
   neofetch|lolcat on shell-boot
