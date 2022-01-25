@@ -5,14 +5,10 @@ set -x #echo on
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 hwclock --systohc
 echo "arch" > /etc/hostname
-nano /etc/hostname
 echo "LANG=de_DE.UTF-8 UTF-8" > /etc/locale.conf
-nano /etc/locale.conf
 echo "de_DE.UTF-8" >> /etc/locale.gen
-nano /etc/locale.gen
 locale-gen
 echo "KEYMAP=de-latin1" > /etc/vconsole.conf
-nano /etc/vconsole.conf
 echo "127.0.0.1    localhost" >> /etc/hosts
 echo "::1          localhost " >> /etc/hosts
 echo "127.0.1.1    arch.localdomain    arch" >> /etc/hosts
