@@ -1,6 +1,7 @@
 loadkeys de-latin1
 iwctl
-lsblk
+timedatectl set-npt true
+timedatectl status
 cfdisk /dev/nvme0n1
 lsblk
 mkfs.ext4 -L ROOT /dev/nvme0n1p6
