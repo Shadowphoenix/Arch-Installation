@@ -1,9 +1,11 @@
 #!/bin/bash
 
-set -x #echo on
+set -x #Enables Terminaloutput
 
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 hwclock --systohc
+
+#Configuring Hostname, Locale and localhost
 echo "arch" > /etc/hostname
 echo "LANG=de_DE.UTF-8" > /etc/locale.conf
 echo "de_DE.UTF-8  UTF-8" >> /etc/locale.gen
@@ -12,17 +14,29 @@ echo "KEYMAP=de-latin1" > /etc/vconsole.conf
 echo "127.0.0.1    localhost" >> /etc/hosts
 echo "::1          localhost " >> /etc/hosts
 echo "127.0.1.1    arch.localdomain    arch" >> /etc/hosts
+
+#Creating init-ramfs
 mkinitcpio -p linux
+
+#Altering Rootpassword
 passwd
+
+#Installing Grub
 pacman -Syu grub efibootmgr os-prober
 grub-install --target=x86_64-efi --efi-directory=/boot/EFI --bootloader-id=GRUB
+
+#Uncomment "Disable OS-Prober" if multibooting
 nano /etc/default/grub
+
+#Writing Grub-Config to EFI-Directory
 grub-mkconfig -o /boot/grub/grub.cfg
-useradd -d /home/neko -M neko
-chown -R neko:neko /home/neko
-passwd neko
-EDITOR=nano visudo
-usermod --append --groups wheel neko
+
+#Creating user - Remember to edit as needed, especially if your /home is not on a separate partition and hence got wiped during reinstallation
+useradd -d /home/neko -M neko #redirecting the user to already existing ~/
+chown -R neko:neko /home/neko #User to own his ~/
+passwd neko #set pw for user
+EDITOR=nano visudo #edit sudoers-file to add "wheel" to sudo
+usermod --append --groups wheel neko #adding user to group wheel (grants sudoprivilege)
 
 #installing SDDM + KDE + Videodrivers 
 
