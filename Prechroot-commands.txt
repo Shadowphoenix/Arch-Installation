@@ -4,7 +4,7 @@ loadkeys de-latin1
 #enabling WLAN - deviate to other services as needed
 iwctl
 
-#enabling network-based timing
+#enabling network-based time-sync
 timedatectl set-npt true
 timedatectl status
 
