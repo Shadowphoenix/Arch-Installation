@@ -18,3 +18,5 @@ yay -Syu pamac-all #Installing Pamac + Dependencies
 yay -Syu davinci-resolve isw optimus-manager-git optimus-manager-qt-git ytmdesktop-bin betterdiscord-installer-bin bottles-git dxvk-bin lib32-libdxvk libdxvk
 
 systemctl enable optimus-manager
+modprobe ec_sys write_support=1
+systemctl enable isw@16R1EMS1.service
