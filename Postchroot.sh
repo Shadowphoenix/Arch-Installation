@@ -2,6 +2,7 @@
 
 set -x #Enables Terminaloutput
 
+#setting systemtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 hwclock --systohc
 
