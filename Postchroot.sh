@@ -7,7 +7,7 @@ ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 hwclock --systohc
 
 #Configuring Hostname, Locale and localhost
-echo "arch" > /etc/hostname
+echo "Arch" > /etc/hostname
 echo "LANG=de_DE.UTF-8" > /etc/locale.conf
 echo "de_DE.UTF-8  UTF-8" >> /etc/locale.gen
 locale-gen
@@ -33,13 +33,13 @@ nano /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 #Creating user - Remember to edit as needed, especially if your /home is not on a separate partition and hence got wiped during reinstallation
-useradd -d /home/neko -M neko #redirecting the user to already existing ~/
+useradd -d /home/neko -M neko #redirecting the user to already existing homepartition
 chown -R neko:neko /home/neko #User to own his ~/
 passwd neko #set pw for user
 EDITOR=nano visudo #edit sudoers-file to add "wheel" to sudo
 usermod --append --groups wheel neko #adding user to group wheel (grants sudoprivilege)
 
-#installing SDDM + KDE + Videodrivers 
+#installing SDDM + KDE + Videodrivers as well as nano and fish-shell
 
 pacman -Syu --needed fish nano wget kget nvidia nvidia-settings opencl-nvidia nvidia-utils mesa xf86-video-intel plasma-desktop sddm sddm-kcm kate konsole dolphin dolphin-plugins partitionmanager spectacle latte-dock sweeper kdeconnect plasma-systemmonitor plasma-firewall powerdevil filelight kcron firewalld neofetch lolcat discover packagekit-qt5 fwupd kdeplasma-addons purpose qt5-webengine quota-tools plasma-nm kmix kde-gtk-config firefox ntfs-3g exfatprogs kgamma5
 
