@@ -33,7 +33,7 @@ nano /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 #Creating user - Remember to edit as needed, especially if your /home is not on a separate partition and hence got wiped during reinstallation
-useradd -d /home/neko -G wheel,audio,video -M neko #redirecting the user to already existing homepartition
+useradd -d /home/neko -G wheel,audio,video,input -M neko #redirecting the user to already existing homepartition
 chown -R neko:neko /home/neko #User to own his ~/
 passwd neko #set pw for user
 EDITOR=nano visudo #edit sudoers-file to add "wheel" to sudo
