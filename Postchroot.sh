@@ -37,7 +37,6 @@ useradd -d /home/neko -G wheel,audio,video,input -M neko #redirecting the user t
 chown -R neko:neko /home/neko #User to own his ~/
 passwd neko #set pw for user
 EDITOR=nano visudo #edit sudoers-file to add "wheel" to sudo
-usermod --append --groups wheel neko #adding user to group wheel (grants sudoprivilege)
 
 #installing SDDM + KDE + Videodrivers as well as nano and fish-shell
 
