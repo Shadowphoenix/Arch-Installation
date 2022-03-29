@@ -1,0 +1,13 @@
+KDE Sweet Theme
+background
+Blur und Transparenz
+andere Effekte
+Better Discord
+./config/fish/config.fish
+fusuma.sh on startup
+lattedock
+warp-gui einrichten
+ToDo-List-Plasmoid
+startmenü ändern
+Symbol für davinci resolve (nennt sich resolve)
+Symbol für ytm
