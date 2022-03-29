@@ -1,0 +1,7 @@
+plugin-repo
+theme-repo
+themesettings
+zerespluginlibrary
+discordexperiments
+channeltabs
+BDFDB
