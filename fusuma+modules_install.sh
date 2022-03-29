@@ -2,7 +2,7 @@
 
 set -x #echo on
 #installing necessities
-sudo pacman -Syu libinput ruby xdotool libevdev wmctrl
+sudo pacman -Syu --needed --noconfirm libinput ruby xdotool libevdev wmctrl
 
 #installing fusuma + plugins
 sudo gem install fusuma
