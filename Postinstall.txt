@@ -5,6 +5,7 @@ andere Effekte
 Better Discord
 ./config/fish/config.fish
 fusuma.sh on startup
+config.yaml nach ~/.config/fusuma/
 lattedock
 warp-gui einrichten
 ToDo-List-Plasmoid
