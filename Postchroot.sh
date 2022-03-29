@@ -27,7 +27,7 @@ pacman -Syu grub efibootmgr os-prober --noconfirm
 grub-install --target=x86_64-efi --efi-directory=/boot/EFI --bootloader-id=GRUB
 
 #Uncomment "Disable OS-Prober" if multibooting
-sed 's,#GRUB_DISABLE_OS_PROBER=false,GRUB_DISABLE_OS_PROBER=false,' /etc/default/grub
+sed -i 's,#GRUB_DISABLE_OS_PROBER=false,GRUB_DISABLE_OS_PROBER=false,' /etc/default/grub
 
 #Writing Grub-Config to EFI-Directory
 grub-mkconfig -o /boot/grub/grub.cfg
