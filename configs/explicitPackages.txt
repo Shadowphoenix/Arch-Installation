@@ -2,18 +2,12 @@ alsa-plugins
 autoconf
 automake
 base
-betterdiscord-git
-betterdiscordctl-git
 binutils
 bison
-bottles-git
 breeze-gtk
 clinfo
-cloudflare-warp-bin
-cpupower-gui-git
 cuda
 cups
-davinci-resolve
 dhcpcd
 digikam
 discord
@@ -95,7 +89,6 @@ mesa
 mpg123
 nano
 neofetch
-networkmanager-openvpn
 ntfs-3g
 nvidia
 nvidia-settings
@@ -103,9 +96,6 @@ nvidia-utils
 obs-studio
 ocl-icd
 opencl-nvidia
-openvpn
-optimus-manager-git
-optimus-manager-qt-git
 os-prober
 packagekit-qt5
 pacman
@@ -150,5 +140,3 @@ winetricks
 wmctrl
 xdotool
 xf86-video-intel
-yay-git
-ytmdesktop
