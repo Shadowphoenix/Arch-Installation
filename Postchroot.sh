@@ -40,12 +40,10 @@ passwd neko #set pw for user
 #edit sudoers-file to add "wheel" to sudo
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
-EDITOR=nano visudo 
 
 #enabling multilib
 
 sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
-nano /etc/pacman.conf
 
 pacman -Syu --needed fish nano wget kget nvidia nvidia-settings opencl-nvidia nvidia-utils mesa xf86-video-intel plasma-desktop sddm sddm-kcm kate konsole dolphin dolphin-plugins partitionmanager spectacle latte-dock sweeper kdeconnect plasma-systemmonitor plasma-firewall powerdevil filelight kcron firewalld neofetch lolcat discover packagekit-qt5 fwupd kdeplasma-addons purpose qt5-webengine quota-tools plasma-nm kmix kde-gtk-config firefox ntfs-3g exfatprogs kgamma5 dialog wpa_supplicant ifplug --noconfirm
 
