@@ -33,7 +33,7 @@ sed -i 's,#GRUB_DISABLE_OS_PROBER=false,GRUB_DISABLE_OS_PROBER=false,' /etc/defa
 grub-mkconfig -o /boot/grub/grub.cfg
 
 #Creating user - Remember to edit as needed, especially if your /home is not on a separate partition and hence got wiped during reinstallation
-useradd -G wheel,audio,video,input -M neko
+useradd -G wheel,audio,video,input -m neko
 chown -R neko:neko /home/neko #User to own his ~/
 passwd neko #set pw for user
 
