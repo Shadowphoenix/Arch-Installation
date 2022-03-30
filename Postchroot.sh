@@ -9,7 +9,7 @@ hwclock --systohc
 #Configuring Hostname, Locale and localhost
 echo "Arch" > /etc/hostname
 echo "LANG=de_DE.UTF-8" > /etc/locale.conf
-sed 's,#de_DE.UTF-8 UTF-8,de_DE.UTF-8 UTF-8,' /etc/locale.gen
+sed -i 's,#de_DE.UTF-8 UTF-8,de_DE.UTF-8 UTF-8,' /etc/locale.gen
 locale-gen
 echo "KEYMAP=de-latin1" > /etc/vconsole.conf
 echo "127.0.0.1    localhost" >> /etc/hosts
