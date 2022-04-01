@@ -45,7 +45,7 @@ sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 
 sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
 
-pacman -Syu --needed fish nano plasma-desktop sddm sddm-kcm kate konsole dolphin firewalld neofetch lolcat firefox ntfs-3g exfatprogs networkmanager --noconfirm
+pacman -Syu --needed fish nano plasma-desktop sddm sddm-kcm kate konsole dolphin firewalld firefox ntfs-3g exfatprogs networkmanager --noconfirm
 
 systemctl enable NetworkManager
 systemctl enable sddm
