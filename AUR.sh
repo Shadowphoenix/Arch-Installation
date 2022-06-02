@@ -14,7 +14,7 @@ makepkg -si #Building Yay
 yay --builddir /mnt/install/yay
 #installing pamac
 
-yay -Syu betterdiscord-git betterdiscordctl-git cloudflare-warp-bin cpupower-gui-git davinci-resolve dxvk-bin isw-git lib32-libdxvk libdxvk members optimus-manager-git optimus-manager-qt-git pamac-aur ytmdesktop
+yay -Syu betterdiscord-git betterdiscordctl-git ttf-google-fonts-git cloudflare-warp-bin cpupower-gui-git davinci-resolve dxvk-bin isw-git lib32-libdxvk libdxvk members optimus-manager-git optimus-manager-qt-git pamac-aur ytmdesktop
 
 systemctl enable optimus-manager
 modprobe ec_sys write_support=1
